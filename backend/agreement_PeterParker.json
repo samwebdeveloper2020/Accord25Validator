@@ -1,0 +1,63 @@
+{
+  "insured_name": "Peter Parker",
+  "holder_name": "The Daily Bugle",
+  "contract_start_date": "October 1, 2025",
+  "contract_end_date": "October 1, 2026",
+  "policy_types": [
+    "Commercial General Liability",
+    "Automobile Liability",
+    "Workers’ Compensation and Employers Liability",
+    "Umbrella/Excess Liability",
+    "Cyber Liability"
+  ],
+  "coverages": {
+    "Commercial General Liability": {
+      "Bodily Injury": "$1,000,000 per occurrence",
+      "Property Damage": "$1,000,000 per occurrence",
+      "Personal & Advertising Injury": "$1,000,000 per occurrence",
+      "General Aggregate": "$2,000,000",
+      "Products/Completed Operations Aggregate": "$2,000,000",
+      "Additional Insured": "The Daily Bugle (per CG 20 10 endorsement)",
+      "Waiver of Subrogation": "Included",
+      "Primary and Non-Contributory": "Included"
+    },
+    "Automobile Liability": {
+      "Bodily Injury & Property Damage": "$1,000,000 combined single limit",
+      "Coverage": "Applies to owned, hired, and non-owned vehicles",
+      "Additional Insured": "The Daily Bugle (where required by contract)",
+      "Waiver of Subrogation": "Included"
+    },
+    "Workers’ Compensation and Employers Liability": {
+      "Workers’ Compensation": "Statutory limits per New York law",
+      "Employers Liability": {
+        "Each Accident": "$500,000",
+        "Disease – Policy Limit": "$500,000",
+        "Disease – Each Employee": "$500,000"
+      },
+      "Waiver of Subrogation": "Included (New York-specific endorsement available)"
+    },
+    "Umbrella/Excess Liability": {
+      "Limit": "$2,000,000 per occurrence",
+      "Coverage": "Follows form over General Liability, Auto Liability, and Employers Liability",
+      "Waiver of Subrogation": "Included",
+      "Additional Insured": "Included where applicable"
+    },
+    "Cyber Liability": {
+      "Data Breach Response": "$500,000 per incident",
+      "Network Security Liability": "$1,000,000 per claim",
+      "Media Liability": "$500,000 per claim",
+      "Regulatory Defense": "$250,000 per claim",
+      "Technology Errors & Omissions": "Included",
+      "Privacy Liability": "Included",
+      "Premium": "$1,800 annually"
+    }
+  },
+  "insurance_requirements": "Contractor shall maintain the following insurance coverage during the term of this agreement",
+  "additional_requirements": "Contractor will operate independently and is responsible for all equipment, transportation, and safety measures",
+  "endorsements": "The certificate must list The Daily Bugle as certificate holder and include all required endorsements",
+  "waiver_of_subrogation": "Included",
+  "policy_numbers": null,
+  "additional_details": {
+    "Certificate Holder Address": "The Daily Bugle, 175 5th Avenue, New York, NY 10010, Attn: Editorial Department"
+  }
+}

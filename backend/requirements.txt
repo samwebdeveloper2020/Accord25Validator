@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+openai
+pypdf
+pdf2image
+pytesseract
+Pillow
+fitz
+python-docx
+requests
+anthropic
