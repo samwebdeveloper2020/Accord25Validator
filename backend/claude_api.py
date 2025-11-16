@@ -19,8 +19,8 @@ def call_claude_custom(prompt, conversation_name="My Chat"):
     }
     data = {
         "conversationName": conversation_name,
-        "entityId": "VERTAFORE",
-        "tenantId": "VERTAFORE",
+        "entityId": "",
+        "tenantId": "",
         "useCaseName": "CHATBOT",
         "useCaseVersion": "0.0.1",
         "serviceProfileName": "CLAUDE-SONNET-3.5",
