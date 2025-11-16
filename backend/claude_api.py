@@ -10,7 +10,7 @@ def get_claude_token(token_file="claude_token.txt"):
 def call_claude_custom(prompt, conversation_name="My Chat"):
     print(prompt)
 
-    url = "https://api.dev.env.apps.vertafore.com/shirley/v1/PLATFORM-ADMIN-WEB-UI/VERTAFORE/entities/VERTAFORE/conversations"
+    url = "your Claude API URL"
     token = get_claude_token()
     headers = {
         "Content-Type": "application/json",
